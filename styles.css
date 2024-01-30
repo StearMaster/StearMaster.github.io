@@ -1,0 +1,49 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(rgba(242, 242, 242, 0.5), rgba(242, 242, 242, 0.5)), url('img/flowers.jpg') center/cover fixed no-repeat;
+    color: #B80ad0; /* Pink-purple color */
+    margin: 25vh 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+#valentine-container {
+    text-align: center;
+    margin-top: 30px; /* Increased margin for more vertical space */
+}
+
+#valentine-image {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 20px; /* Increased margin for more vertical space */
+}
+
+#main-text, #valentine-text {
+    font-size: 50px;
+    font-weight: bold; /* Bold text */
+    margin: 50px 0; /* Increased margin for more vertical space */
+}
+
+#yes-button, #no-button {
+    padding: 15px 25px; /* Increased padding for larger buttons */
+    font-size: 18px; /* Increased font size for buttons */
+    margin: 20px 10px; /* Increased margin for more vertical space */
+    cursor: pointer;
+    border-radius: 15px; /* Rounded corners */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans MS for button text */
+}
+
+#yes-button {
+    background-color: #ee5bd1; /* Pink color */
+    color: white;
+    border: none;
+}
+
+#no-button {
+    background-color: #ee5bd1; /* Purple color */
+    color: white;
+    border: none;
+}
